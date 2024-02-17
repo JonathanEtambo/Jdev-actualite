@@ -1,0 +1,48 @@
+head {
+    background-color: #6395e6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*Effet de Texte en 3D*/
+.element {
+    perspective: 250;
+}
+footer {
+    background-color: #6395e6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    perspective: 250;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6395e6;
+}
+li{
+    float: left;
+    image-rendering: calc();
+}
+li a{
+    display: block;
+   color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: lab(from color l a b);
+}
+li a:hover {
+    background-color: #4c81b4;
+}
+ol {
+    line-height: normal;
+    margin: 0%;
+    padding: 0%;
+    overflow: visible;
+    background-image: -moz-linear-gradient(jpg);
+}
